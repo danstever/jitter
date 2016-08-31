@@ -9,6 +9,6 @@ chrome.webNavigation.onBeforeNavigate.addListener(function(){
         var width = win.width + wQty;
         var height = win.height + hQty;
 
-        chrome.windows.update(win.id, {'width': width, 'height': height }, function(){});
+        chrome.windows.update(win.id, {'width': width, 'height': height}, function(){});
     });
 });
