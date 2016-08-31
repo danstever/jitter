@@ -1,13 +1,8 @@
 {
   "manifest_version": 2,
-
   "name": "Jitter",
   "description": "Privacy Conscious Browser Resizing",
   "version": "1.0",
-
-  "browser_action": {
-    "default_title": "Click there!"
-  },
   "background": {
     "scripts": ["jitter.js"],
     "persistent": false
